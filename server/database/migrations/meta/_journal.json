@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1794015284045,
+      "tag": "0000_keen_quentin_quire",
+      "breakpoints": true
+    }
+  ]
+}

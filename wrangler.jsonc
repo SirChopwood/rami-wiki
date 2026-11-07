@@ -1,0 +1,22 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "rami-wiki",
+	"compatibility_date": "2026-01-01",
+	"pages_build_output_dir": "./.output/public",
+	// Database: Cloudflare D1
+	"d1_databases": [
+		{
+			"binding": "rami_wiki_db",
+			"database_name": "rami-wiki-db",
+			"database_id": "acf3c51b-d0e4-497d-8a86-01db689546ff",
+			"migrations_dir": "./server/database/migrations/"
+		}
+	],
+	// Image Storage: Cloudflare R2
+	"r2_buckets": [
+		{
+			"bucket_name": "rami-wiki-media",
+			"binding": "rami_wiki_media"
+		}
+	]
+}
