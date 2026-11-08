@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+html, body, #__nuxt {
+    height: 100%;
+}
+
+@theme {
+    --color-primary: #ffbb00;
+    --color-secondary: #393939;
+    --color-tertiary: #8c8c8c;
+
+    --font-title: sans-serif;
+    --font-body: sans-serif;
+}
+
+@utility page-centered {
+    @apply max-w-350 w-full mx-auto
+}
+
+@utility page-full {
+    @apply w-full max-w-full
+}
+
+@utility page {
+    @apply my-4
+}
