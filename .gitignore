@@ -24,4 +24,4 @@ logs
 !.env.example
 
 # Wrangler
-.wranger
+/.wrangler/
