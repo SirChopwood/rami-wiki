@@ -28,7 +28,7 @@ const { loggedIn, user } = useUserSession()
   </div>
   <a v-else
      :href="`/auth/${service}`"
-     class="px-1 py-0.5 min-w-24 border border-neutral-700 hover:border-neutral-200 hover:text-neutral-200 transition-colors duration-200 text-neutral-500 bg-neutral-900 rounded-full flex flex-row items-center w-fit">
+     class="px-1 py-0.5 min-w-24 border border-neutral-700 hover:border-neutral-200 hover:text-neutral-200 transition-colors duration-200 text-neutral-500 bg-neutral-900 rounded-full flex flex-row items-center w-fit cursor-pointer">
     <div class="mx-2 relative h-8 flex items-end">
       <div class="text-xs absolute top-0 left-0">{{service[0].toUpperCase() + service.substring(1)}}</div>
       <div class="text-md font-bold"> Login </div>

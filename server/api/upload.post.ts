@@ -1,7 +1,7 @@
 import {requirePermission} from "#server/utils/auth.ts";
 
 export default defineEventHandler(async (event) => {
-    const user = await requirePermission(event, 'edit:upload')
+    const user = await requirePermission(event, 'content:upload')
 
     const formData = await readMultipartFormData(event)
     const file = formData?.find(item => item.name === 'file')

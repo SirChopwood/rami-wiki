@@ -1,6 +1,6 @@
 // Extend the auth-utils session types
 declare module '#auth-utils' {
-    interface User {
+    export interface User {
         id: number
         
         discord_id?: string

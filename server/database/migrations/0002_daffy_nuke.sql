@@ -1,0 +1,1 @@
+ALTER TABLE `pages` ADD `colour` text DEFAULT '#a10707' NOT NULL;

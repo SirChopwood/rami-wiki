@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'cloudflare-pages'
   },
-  modules: ['nuxt-auth-utils', 'nuxt-mdi'],
+  modules: ['nuxt-auth-utils', 'nuxt-mdi', '@comark/nuxt'],
   css: ['~/assets/css/main.css'],
   vite: {
     plugins: [
@@ -16,5 +16,13 @@ export default defineNuxtConfig({
   mdi: {
     componentName: 'NuxtIcon',
     defaultSize: '20px'
-  }
+  },
+  components: [
+    {
+      path: '~/components/wiki',
+      pathPrefix: false,
+      global: true
+    },
+    '~/components'
+  ]
 })

@@ -1,6 +1,6 @@
 import type { H3Event } from 'h3'
 import { drizzle } from 'drizzle-orm/d1'
-import { roles } from "#server/database/schema.ts";
+import { roles } from "#server/database/schema/userManagement.ts";
 import { eq } from 'drizzle-orm'
 import type {User} from "#auth-utils";
 

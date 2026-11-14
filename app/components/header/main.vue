@@ -14,7 +14,7 @@ onMounted(() => {
 <template>
   <header id="header" ref="header" class="sticky top-0 z-10 w-full group flex flex-col transition-all duration-200 bg-neutral-800">
     <div class="border-b border-b-neutral-500 w-full">
-      <div class="page-centered flex items-center justify-between h-full p-2 h-20 group-data-scrolled:h-12">
+      <div class="page-centered flex flex-col md:flex-row gap-2 items-center justify-between h-full p-2 h-20 group-data-scrolled:h-12">
         <div class="flex gap-2 min-w-64">
           <img class="h-18 min-w-18 group-data-scrolled:h-10 group-data-scrolled:min-w-10">
           <div class="flex flex-col justify-center">

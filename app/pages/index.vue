@@ -10,7 +10,6 @@
     Body text goes here...
   </div>
   <div class="bg-red-500 h-20 page page-full"/>
-  <div class="bg-red-900 h-200 page page-centered"/>
 </template>
 
 <style scoped>

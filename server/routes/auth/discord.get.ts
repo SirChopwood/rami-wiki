@@ -1,5 +1,5 @@
 import { drizzle } from 'drizzle-orm/d1'
-import { users } from "#server/database/schema.ts";
+import { users } from "#server/database/schema/userManagement.ts";
 import { eq } from 'drizzle-orm'
 import { updateSessionUser } from "#server/utils/auth.ts";
 

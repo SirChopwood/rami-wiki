@@ -5,7 +5,7 @@
 <template>
   <div class="min-h-full h-fit flex flex-col">
     <header-main/>
-    <main class="relative min-h-full h-fit grow bg-neutral-900 flex flex-col justify-start py-4">
+    <main class="relative min-h-full h-fit text-white grow bg-neutral-900 flex flex-col justify-start py-4">
       <slot/>
     </main>
     <footer-main/>
